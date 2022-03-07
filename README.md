@@ -135,7 +135,7 @@ To do so, we need to create a new route to the app called `/favorites` which dis
 - Avoid leaving behind unused code, as well as make sure that your code is clean, formatted, and without any `console.logs`.
 - Make sure all the code is committed and pushed.
 - Make sure your console is free of `errors`, don't waste time on `warnings` if you don't know how to solve them, it's totally ok.
-- Email us your git repository link and a video of your app (totally optional!) to the following address: .
+- Email us your git repository link and a video of your app (totally optional!) to the following address: bootcamp@melio.com
 
 #### Remember: this task is designed to see how you complete tasks that require self learning, not to test your existing knowledge, it's ok if things are not perfect!
 
