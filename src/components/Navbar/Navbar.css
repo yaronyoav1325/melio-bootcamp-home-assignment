@@ -1,3 +1,15 @@
 #navbar {
-  border-bottom: 1px solid grey;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 10fr;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
 }
+.home{
+  grid-column: 1;
+}
+.favorites{
+  grid-column: 2;
+}
+
+

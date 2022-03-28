@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "melio-assignment",
   "version": "0.0.0",
   "scripts": {
@@ -12,6 +13,7 @@
     "@honkhonk/vite-plugin-svgr": "^1.1.0",
     "babel-plugin-macros": "^3.1.0",
     "extract-text-webpack-plugin": "^3.0.2",
+    "node-fetch": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^6.2.1",

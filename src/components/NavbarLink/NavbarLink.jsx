@@ -11,8 +11,9 @@ export const NavbarLink = (props) => {
     navigate(props.to);
   };
 
+
   return (
-    <div onClick={handleClick}>
+    <div className = "title" onClick={handleClick} style={{color:isActive? "blue":"black"}}>
       {props.label}
     </div>
   );

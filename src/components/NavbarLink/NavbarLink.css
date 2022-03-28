@@ -1,1 +1,8 @@
+.title:hover{
+    cursor: pointer;
+}
 
+.title{
+    margin: 5%;
+    margin-left: 20%;
+}

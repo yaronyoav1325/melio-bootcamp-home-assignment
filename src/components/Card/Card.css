@@ -1,0 +1,102 @@
+@media (min-width: 480px) {
+    .card {
+        display: grid;
+        grid-template-columns: [photo-start] 100px [photo-end]  220px [details-end] 100px [heart-start] 20px [heart-end];
+        border-radius: 10px;
+        padding: 5px;
+        margin: 20px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+        height: 80px;
+        width: 500px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .personPhoto{
+        border-radius: 60%; 
+        margin-top: 10px;
+        height: 60px;
+        margin-left: 10px;
+    }
+    .details{
+        grid-column-start: photo-end;
+        grid-column-end: details-end;
+        margin-top:10px;
+    }
+    
+    .favorite{
+        grid-column-start: heart-start;
+        grid-column-end: heart-end;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 480px) {
+
+    .card {
+        display: grid;
+        grid-template-columns: [photo-start] 10% [photo-end]  65% [details-end] 5% [heart-end];
+        border-radius: 10px;
+        padding: 2%;
+        margin: 20px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+        height: 20%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .personPhoto{
+        border-radius: 60%; 
+        margin-top: 40%;
+        height: 65%;
+        margin-left: 0%;
+        margin-top:50%;
+    }
+    .details{
+        grid-column-start: photo-end;
+        grid-column-end: details-end;
+        margin-top:8%;
+        margin-left: 20%;
+    }
+    .name{
+        font-size: 75%;
+    }
+    .favorite{
+        grid-column-start: details-end;
+        grid-column-end: heart-end;
+        margin-top: 10px;
+        margin-right: 100%;
+    }
+
+}
+.card:hover{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.40);
+}
+
+.photo{
+    grid-column-start: photo-start;
+    grid-column-end: photo-end;
+}
+.firstRow{
+    display: flex;
+}
+.preferred {
+    background-color: darkblue;
+    border-radius: 60px;
+    overflow:hidden;
+    line-height: 25px;
+    color: white;
+    font-size: 40%;
+    text-align: center;
+    margin-left: 10px;
+}
+.email,.location{
+    font-size: 80%;
+    color:gray;
+    grid-column: 2;
+}
+.name,.email,.location{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.name{
+    font-weight: bold;
+}

@@ -4,6 +4,9 @@
   align-items: center;
   width: 100%;
 }
+.alldata{
+  display: inline-block;
+}
 
 .home-title {
   display: flex;
@@ -15,8 +18,11 @@
 .home-subtitle {
   display: flex;
   font-size: 14px;
+  color:gray;
 }
 
 .candidates-list{
   margin-block-start: 30px;
 }
+
+
